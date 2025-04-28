@@ -8,6 +8,7 @@ Projeto pikachu usando HTML e CSS, desenvolvido durante a disciplina de Linguage
 * HTML
 * CSS
 * git
+* Figma
 & github
 
 ## Autor
