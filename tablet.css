@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+:root{
+    --primary-color: #F5CF06;
+    --secundary-color: #8E4106;
+}
+
+body{
+    background-color: var(--primary-color);
+    width: 768px;
+    height: 1024px;
+    font-family: "righteous", sans-serif;
+}
+
+header{
+    display: flex;
+    color: var(--secundary-color);
+    gap: 0 17px;
+    padding: 30px 30px;
+}
+
+.poke-bola{
+    width: 48px;
+    height: 48px;
+    top: 30px;
+    left: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 568px;
+}
+
+.pikachu-grande{
+    position: absolute;
+    width: 731px;
+    height: 248px;
+    top: 30px;
+    left: 19px;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 100%;
+    color: white;
+    opacity: 20%;
+}
+
+.pikachu-pequeno{
+    position: absolute;
+    width: 658px;
+    height: 224px;
+    top: 115px;
+    left: 56px;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 100%;
+    color: white;
+}
+
+.pikachu{
+    position: absolute;
+    width: 559px;
+    height: 541px;
+    top: 241px;
+    left: 105px;
+}
+
+h3{
+    position: absolute;
+    width: 530px;
+    height: 79px;
+    top: 735px;
+    left: 119px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    color: var(--secundary-color);
+}
+
+h4{
+    position: absolute;
+    width: 489px;
+    height: 75px;
+    top: 814px;
+    left: 140px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--secundary-color);
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secundary-color);
+ }
+
+.botao-download{
+    position: absolute;
+    top: 900px;
+    left: 179px;
+}
+
+.button{
+    border: none;
+    gap: 40px;
+    background-color: var(--secundary-color);
+    top: 900px;
+    left: 179px;
+    width: 411px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "righteous", sans-serif;;
+}

@@ -27,7 +27,7 @@ header{
     height: 10%;
     color: var(--secundary-color);
     padding: 70px 80px;
-    gap: 0 17px;;
+    gap: 0 17px;
 }
 
 .poke-bola{
@@ -70,7 +70,7 @@ main{
     font-size: 400px;
     line-height: 100%;
     color: white;
-    opacity: 40%;
+    opacity: 20%;
     font-family: "righteous", sans-serif;
 }
 
@@ -133,7 +133,7 @@ h4{
     left: 1032px;
 }
 
-h6{
+h5{
     color: white;
     font-size: 48px;
     font-family: "righteous", sans-serif;
@@ -147,7 +147,7 @@ footer{
    color: var(--secundary-color);
 }
 
-h5{
+h6{
     position: absolute;
     width: 208px;
     height: 20px;
