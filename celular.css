@@ -3,17 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     width: 360px;
     height: 640px;
     font-family: "Righteous", sans-serif;
     background-color: #F5CF06;
 }
-.organizado{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 header{
     display: flex;
     flex-direction: row;
@@ -22,11 +19,19 @@ header{
     color: #8E4106;
 
 }
+
 main{
     height: auto;
     color: #8E4106;
 }
-.pikachu_GRANDE{
+
+.pikachus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pikachu-grande{
     width: 366px;
     height: 193.32px;
     top: 42px;
@@ -37,7 +42,8 @@ main{
     opacity: 20%;
     color: yellow;
 }
-.pikachu_pequeno{
+
+.pikachu-pequeno{
     position: absolute;
     width: 293px;
     height: 154.34px;
@@ -48,12 +54,14 @@ main{
     line-height: 100%;
     color: white;
 }
+
 .pikachu{
     width: 333px;
     height: 322.28px;
     top: 159px;
     left: 14px;
 }
+
 h3{
     width: 332px;
     height: 50px;
@@ -63,6 +71,7 @@ h3{
     font-size: 40px;
     line-height: 100%;
 }
+
 button{
     align-items: center;
     padding: 25px;
@@ -77,12 +86,14 @@ button{
     gap: 17px;
     border: none;
 }
+
 .download{
     width: 187.97px;
     height: 50px;
     top: 541px;
     left: 111.03px;
 }
+
 h4{
     font-family: "Righteous", sans-serif;
     width: 221px;
